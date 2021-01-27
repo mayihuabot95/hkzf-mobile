@@ -1,7 +1,12 @@
+// 导入组件
+import { Button } from 'antd-mobile';
+
+
 function App() {
   return (
     <div className="App">
-      <h1>项目根组件</h1>
+      项目根组件
+      <Button>按钮</Button>
     </div>
   );
 }
